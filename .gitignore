@@ -1,0 +1,10 @@
+# Ignore build artifacts and secrets
+node_modules
+.next
+.open-next
+.cloudflare
+.env.local
+.dev.vars
+
+.dev-server.out.log
+.dev-server.err.log

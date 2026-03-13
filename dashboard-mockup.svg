@@ -1,0 +1,143 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4F0E8"/>
+      <stop offset="1" stop-color="#E7EFE8"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFDF9"/>
+      <stop offset="1" stop-color="#F7F5EF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#31473A" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .title { font: 700 34px Georgia, serif; fill: #1F3529; }
+      .subtitle { font: 400 16px Verdana, sans-serif; fill: #496252; }
+      .nav { font: 600 15px Verdana, sans-serif; fill: #264434; }
+      .cardTitle { font: 600 14px Verdana, sans-serif; fill: #5F7668; letter-spacing: 0.08em; }
+      .cardValue { font: 700 30px Georgia, serif; fill: #1C3327; }
+      .small { font: 400 13px Verdana, sans-serif; fill: #5F7668; }
+      .tableHead { font: 700 12px Verdana, sans-serif; fill: #6D8176; letter-spacing: 0.08em; }
+      .tableCell { font: 600 14px Verdana, sans-serif; fill: #243D31; }
+      .green { fill: #157347; }
+      .red { fill: #B54737; }
+      .muted { fill: #7A8E82; }
+      .chip { font: 700 12px Verdana, sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="1350" cy="140" r="180" fill="#D9E7D8"/>
+  <circle cx="180" cy="860" r="220" fill="#E9DED0"/>
+
+  <rect x="70" y="48" width="1460" height="900" rx="32" fill="url(#panel)" filter="url(#shadow)"/>
+
+  <text x="120" y="105" class="title">Tanzania DSE Investor Dashboard</text>
+  <text x="120" y="134" class="subtitle">Track daily movers, monitor your watchlist, and act on price alerts.</text>
+
+  <rect x="1130" y="74" width="120" height="40" rx="20" fill="#E0E9E2"/>
+  <text x="1168" y="99" class="nav">Watchlist</text>
+  <rect x="1264" y="74" width="90" height="40" rx="20" fill="#E0E9E2"/>
+  <text x="1293" y="99" class="nav">Alerts</text>
+  <rect x="1368" y="74" width="110" height="40" rx="20" fill="#1F4D3A"/>
+  <text x="1403" y="99" style="font: 700 15px Verdana, sans-serif; fill: #F6F4EE;">Admin</text>
+
+  <rect x="120" y="170" width="1360" height="72" rx="22" fill="#F1EEE6"/>
+  <text x="150" y="198" class="cardTitle">MARKET DATE</text>
+  <text x="150" y="224" class="tableCell">2026-03-11</text>
+  <text x="400" y="198" class="cardTitle">LAST UPDATED</text>
+  <text x="400" y="224" class="tableCell">18:10 EAT</text>
+  <text x="650" y="198" class="cardTitle">SOURCE</text>
+  <text x="650" y="224" class="tableCell">Dar es Salaam Stock Exchange</text>
+  <rect x="1238" y="188" width="170" height="34" rx="17" fill="#DCEBDD"/>
+  <text x="1284" y="210" style="font: 700 13px Verdana, sans-serif; fill: #1D6B43;">Data Fresh</text>
+
+  <rect x="120" y="274" width="300" height="130" rx="26" fill="#FCFBF8" stroke="#E1DDD3"/>
+  <text x="150" y="314" class="cardTitle">TRACKED SECURITIES</text>
+  <text x="150" y="356" class="cardValue">28</text>
+  <text x="150" y="382" class="small">Listed names available in the current feed</text>
+
+  <rect x="440" y="274" width="300" height="130" rx="26" fill="#FCFBF8" stroke="#E1DDD3"/>
+  <text x="470" y="314" class="cardTitle">TOP GAINER</text>
+  <text x="470" y="356" class="cardValue">CRDB</text>
+  <text x="470" y="382" style="font: 700 18px Verdana, sans-serif; fill: #157347;">+4.0%</text>
+
+  <rect x="760" y="274" width="300" height="130" rx="26" fill="#FCFBF8" stroke="#E1DDD3"/>
+  <text x="790" y="314" class="cardTitle">TOP LOSER</text>
+  <text x="790" y="356" class="cardValue">TCCL</text>
+  <text x="790" y="382" style="font: 700 18px Verdana, sans-serif; fill: #B54737;">-1.5%</text>
+
+  <rect x="1080" y="274" width="400" height="130" rx="26" fill="#FCFBF8" stroke="#E1DDD3"/>
+  <text x="1110" y="314" class="cardTitle">MOST ACTIVE</text>
+  <text x="1110" y="356" class="cardValue">NMB</text>
+  <text x="1110" y="382" class="small">82,000 shares traded in latest published session</text>
+
+  <rect x="120" y="434" width="500" height="240" rx="28" fill="#FFFDF9" stroke="#E1DDD3"/>
+  <text x="150" y="474" class="cardTitle">TOP GAINERS</text>
+  <text x="150" y="516" class="tableCell">CRDB</text>
+  <text x="525" y="516" style="font: 700 16px Verdana, sans-serif; fill: #157347;" text-anchor="end">+4.0%</text>
+  <line x1="150" y1="532" x2="590" y2="532" stroke="#E8E2D8"/>
+  <text x="150" y="566" class="tableCell">NMB</text>
+  <text x="525" y="566" style="font: 700 16px Verdana, sans-serif; fill: #157347;" text-anchor="end">+2.7%</text>
+  <line x1="150" y1="582" x2="590" y2="582" stroke="#E8E2D8"/>
+  <text x="150" y="616" class="tableCell">SWISSPORT</text>
+  <text x="525" y="616" style="font: 700 16px Verdana, sans-serif; fill: #157347;" text-anchor="end">+1.8%</text>
+
+  <rect x="640" y="434" width="500" height="240" rx="28" fill="#FFFDF9" stroke="#E1DDD3"/>
+  <text x="670" y="474" class="cardTitle">TOP LOSERS</text>
+  <text x="670" y="516" class="tableCell">TCCL</text>
+  <text x="1045" y="516" style="font: 700 16px Verdana, sans-serif; fill: #B54737;" text-anchor="end">-1.5%</text>
+  <line x1="670" y1="532" x2="1110" y2="532" stroke="#E8E2D8"/>
+  <text x="670" y="566" class="tableCell">TBL</text>
+  <text x="1045" y="566" style="font: 700 16px Verdana, sans-serif; fill: #B54737;" text-anchor="end">-1.0%</text>
+  <line x1="670" y1="582" x2="1110" y2="582" stroke="#E8E2D8"/>
+  <text x="670" y="616" class="tableCell">TATEPA</text>
+  <text x="1045" y="616" style="font: 700 16px Verdana, sans-serif; fill: #B54737;" text-anchor="end">-0.6%</text>
+
+  <rect x="1160" y="434" width="320" height="240" rx="28" fill="#FFFDF9" stroke="#E1DDD3"/>
+  <text x="1190" y="474" class="cardTitle">ALERTS SNAPSHOT</text>
+  <rect x="1190" y="500" width="100" height="34" rx="17" fill="#E9F3EA"/>
+  <text x="1223" y="521" class="chip" fill="#1D6B43">3 Active</text>
+  <rect x="1300" y="500" width="120" height="34" rx="17" fill="#F5E7E3"/>
+  <text x="1337" y="521" class="chip" fill="#B54737">1 Triggered</text>
+  <text x="1190" y="572" class="tableCell">CRDB above 700</text>
+  <text x="1190" y="602" class="small">Email alert waiting for next published close</text>
+  <text x="1190" y="642" class="tableCell">NMB daily move above 3%</text>
+
+  <rect x="120" y="704" width="1360" height="190" rx="28" fill="#FFFDF9" stroke="#E1DDD3"/>
+  <text x="150" y="744" class="cardTitle">MY WATCHLIST</text>
+  <text x="150" y="780" class="tableHead">TICKER</text>
+  <text x="310" y="780" class="tableHead">COMPANY</text>
+  <text x="660" y="780" class="tableHead">LAST PRICE</text>
+  <text x="860" y="780" class="tableHead">CHANGE</text>
+  <text x="1040" y="780" class="tableHead">VOLUME</text>
+  <text x="1220" y="780" class="tableHead">TREND</text>
+  <text x="1350" y="780" class="tableHead">ALERT</text>
+
+  <line x1="150" y1="798" x2="1450" y2="798" stroke="#E8E2D8"/>
+
+  <text x="150" y="835" class="tableCell">CRDB</text>
+  <text x="310" y="835" class="tableCell">CRDB Bank</text>
+  <text x="660" y="835" class="tableCell">650</text>
+  <text x="860" y="835" style="font: 700 15px Verdana, sans-serif; fill: #157347;">+4.0%</text>
+  <text x="1040" y="835" class="tableCell">95,000</text>
+  <text x="1220" y="835" class="muted">Up 30D</text>
+  <circle cx="1375" cy="830" r="10" fill="#1D6B43"/>
+
+  <text x="150" y="875" class="tableCell">NMB</text>
+  <text x="310" y="875" class="tableCell">NMB Bank</text>
+  <text x="660" y="875" class="tableCell">4,500</text>
+  <text x="860" y="875" style="font: 700 15px Verdana, sans-serif; fill: #157347;">+2.7%</text>
+  <text x="1040" y="875" class="tableCell">82,000</text>
+  <text x="1220" y="875" class="muted">Up 7D</text>
+  <circle cx="1375" cy="870" r="10" fill="#1D6B43"/>
+
+  <text x="150" y="915" class="tableCell">TBL</text>
+  <text x="310" y="915" class="tableCell">Tanzania Breweries</text>
+  <text x="660" y="915" class="tableCell">9,800</text>
+  <text x="860" y="915" style="font: 700 15px Verdana, sans-serif; fill: #B54737;">-1.0%</text>
+  <text x="1040" y="915" class="tableCell">10,500</text>
+  <text x="1220" y="915" class="muted">Down 7D</text>
+  <circle cx="1375" cy="910" r="10" fill="#C8D3CB"/>
+</svg>
